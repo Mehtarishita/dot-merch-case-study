@@ -130,10 +130,13 @@ export default function HeroSection() {
             Built around the theme <strong>"Think Everyday"</strong>, each Dot product transforms everyday essentials into reminders to explore. But they hold a secret - scan any item to instantly unlock a unique, hand-picked article from around the world.
             <br /><br />
             <span style={{ 
+              display: "inline-block",
+              textAlign: "center",
+              lineHeight: 1.4,
               color: C.bgDark, 
               background: C.yellow, 
-              padding: "6px 14px", 
-              borderRadius: 999, 
+              padding: "8px 16px", 
+              borderRadius: 24, 
               fontWeight: 800, 
               letterSpacing: "0.05em", 
               textTransform: "uppercase", 
@@ -199,6 +202,7 @@ export default function HeroSection() {
 
       {/* ── Scroll indicator ───────────────────────────────────── */}
       <motion.div
+        className="scroll-indicator"
         initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2 }}
         style={{ position: "absolute", bottom: 36, left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: 8, zIndex: 10 }}>
         <span style={{ fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: C.textLight, fontWeight: 600 }}>
@@ -226,6 +230,7 @@ export default function HeroSection() {
           }
           .hero-text { order: 2 !important; }
           .hero-image { order: 1 !important; }
+          .scroll-indicator { display: none !important; }
         }
       `}</style>
     </section>

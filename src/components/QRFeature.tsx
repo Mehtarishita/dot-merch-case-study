@@ -51,7 +51,7 @@ export default function QRFeature() {
           style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center", zIndex: 2 }}>
           
           <div style={{ 
-            position: "relative", width: 340, height: 340, background: C.yellow, 
+            position: "relative", width: "100%", maxWidth: 340, aspectRatio: "1/1", background: C.yellow, 
             borderRadius: 32, padding: 16, boxShadow: "0 30px 60px rgba(0,0,0,0.4)",
             border: `2px solid rgba(255,255,255,0.1)`
           }}>
@@ -102,8 +102,8 @@ export default function QRFeature() {
       </div>
 
       <style>{`
-        .qr-grid {
-          @media(max-width: 900px) {
+        @media(max-width: 900px) {
+          .qr-grid {
             grid-template-columns: 1fr !important;
             text-align: center;
             gap: 4rem;
