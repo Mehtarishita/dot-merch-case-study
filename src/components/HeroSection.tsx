@@ -214,7 +214,7 @@ export default function HeroSection() {
       {/* ── Responsive styles ─────────────────────────────────── */}
       <style>{`
         .hero-section {
-          padding-top: 140px;
+          padding-top: 60px;
         }
         .hero-grid {
           display: grid;
@@ -227,7 +227,7 @@ export default function HeroSection() {
 
         @media (max-width: 900px) {
           .hero-section {
-            padding-top: 80px;
+            padding-top: 40px;
           }
           .hero-grid {
             grid-template-columns: 1fr !important;
