@@ -196,7 +196,7 @@ export default function WhyDotMerch() {
     hidden: {},
     visible: { transition: { staggerChildren: 0.12 } },
   };
-  const cardVariants = {
+  const cardVariants: any = {
     hidden: { opacity: 0, y: 32 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: "easeOut" } },
   };

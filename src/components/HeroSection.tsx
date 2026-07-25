@@ -77,9 +77,9 @@ const CHIPS = [
 ];
 
 /* ── Animation variants ─────────────────────────────────────── */
-const fromLeft = { hidden: { opacity: 0, x: -32 }, visible: (d: number) => ({ opacity: 1, x: 0, transition: { duration: 0.7, delay: d, ease: "easeOut" } }) };
-const fromRight = { hidden: { opacity: 0, x: 32 }, visible: { opacity: 1, x: 0, transition: { duration: 0.75, delay: 0.15, ease: "easeOut" } } };
-const fromBottom = { hidden: { opacity: 0, y: 20 }, visible: (d: number) => ({ opacity: 1, y: 0, transition: { duration: 0.55, delay: d, ease: "easeOut" } }) };
+const fromLeft: any = { hidden: { opacity: 0, x: -32 }, visible: (d: number) => ({ opacity: 1, x: 0, transition: { duration: 0.7, delay: d, ease: "easeOut" } }) };
+const fromRight: any = { hidden: { opacity: 0, x: 32 }, visible: { opacity: 1, x: 0, transition: { duration: 0.75, delay: 0.15, ease: "easeOut" } } };
+const fromBottom: any = { hidden: { opacity: 0, y: 20 }, visible: (d: number) => ({ opacity: 1, y: 0, transition: { duration: 0.55, delay: d, ease: "easeOut" } }) };
 
 /* ── Component ──────────────────────────────────────────────── */
 export default function HeroSection() {
