@@ -62,7 +62,7 @@ export default function Featured() {
               style={{ flex: 1, position: "relative", borderRadius: 24, overflow: "hidden", background: "#EDF2F7", display: "flex", flexDirection: "column", minHeight: 288, transition: "all 0.3s ease" }}>
               <div style={{ flex: 1, position: "relative", width: "100%", padding: "1.5rem", paddingBottom: "1rem" }}>
                 <motion.div whileHover={{ scale: 1.04 }} style={{ width: "100%", height: "100%", position: "relative", transition: "transform 0.5s ease", borderRadius: 16, overflow: "hidden" }}>
-                  <Image src="/images/products/globe.png" alt="The Explorer Globe" fill style={{ objectFit: "cover" }} unoptimized />
+                  <Image src="/images/products/globe.png" alt="The Explorer Globe" fill style={{ objectFit: "cover" }} priority />
                 </motion.div>
               </div>
               <div style={{ padding: "0 1.5rem 1.5rem 1.5rem", zIndex: 10 }}>
@@ -76,7 +76,7 @@ export default function Featured() {
               style={{ flex: 1, position: "relative", borderRadius: 24, overflow: "hidden", background: "#F5F0F5", display: "flex", flexDirection: "column", minHeight: 288, transition: "all 0.3s ease" }}>
               <div style={{ flex: 1, position: "relative", width: "100%", padding: "1.5rem", paddingBottom: "1rem" }}>
                 <motion.div whileHover={{ scale: 1.04 }} style={{ width: "100%", height: "100%", position: "relative", transition: "transform 0.5s ease", borderRadius: 16, overflow: "hidden" }}>
-                  <Image src="/images/products/puzzle.png" alt="The Big Picture Puzzle" fill style={{ objectFit: "cover" }} unoptimized />
+                  <Image src="/images/products/puzzle.png" alt="The Big Picture Puzzle" fill style={{ objectFit: "cover" }} priority />
                 </motion.div>
               </div>
               <div style={{ padding: "0 1.5rem 1.5rem 1.5rem", zIndex: 10 }}>
