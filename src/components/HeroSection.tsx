@@ -84,14 +84,13 @@ const fromBottom: any = { hidden: { opacity: 0, y: 20 }, visible: (d: number) =>
 /* ── Component ──────────────────────────────────────────────── */
 export default function HeroSection() {
   return (
-    <section id="home" style={{
+    <section id="home" className="hero-section" style={{
       position: "relative",
       minHeight: "85vh",
       background: "linear-gradient(180deg, #1a2138 0%, #0d1120 100%)",
       overflow: "hidden",
       display: "flex",
       alignItems: "flex-start",
-      paddingTop: "140px",
     }}>
       <FloatingDoodles />
 
@@ -214,6 +213,9 @@ export default function HeroSection() {
 
       {/* ── Responsive styles ─────────────────────────────────── */}
       <style>{`
+        .hero-section {
+          padding-top: 140px;
+        }
         .hero-grid {
           display: grid;
           grid-template-columns: 1fr 1.15fr;
@@ -224,6 +226,9 @@ export default function HeroSection() {
         .hero-image { order: 2; }
 
         @media (max-width: 900px) {
+          .hero-section {
+            padding-top: 80px;
+          }
           .hero-grid {
             grid-template-columns: 1fr !important;
             gap: 3rem !important;
