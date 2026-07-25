@@ -86,15 +86,16 @@ export default function HeroSection() {
   return (
     <section id="home" style={{
       position: "relative",
-      minHeight: "100vh",
+      minHeight: "85vh",
       background: "linear-gradient(180deg, #1a2138 0%, #0d1120 100%)",
       overflow: "hidden",
       display: "flex",
-      alignItems: "center",
+      alignItems: "flex-start",
+      paddingTop: "140px",
     }}>
       <FloatingDoodles />
 
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "5rem 2rem 4rem", width: "100%", position: "relative", zIndex: 1 }}
+      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "2rem 2rem 4rem", width: "100%", position: "relative", zIndex: 1 }}
         className="hero-grid">
 
         {/* ── LEFT: Text ─────────────────────────────────────── */}
