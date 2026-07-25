@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🟡 Dot Merchandise Showcase | Inkling 2026
 
-## Getting Started
+![Dot Merchandise Experience](./public/images/hero-banner.jpg)
 
-First, run the development server:
+Welcome to the **Dot Merchandise Case Study** repository! This project was developed as a comprehensive digital showcase for the **IIM Ranchi x dot. Inkling 2026 National Case Competition (Round 2)**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 The Challenge: Merch That Matters
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Context
+Great merchandise is a subtle extension of a brand's identity - it shouldn't feel like advertising. It reflects what a brand stands for, builds a sense of belonging for its owner, and helps others discover the brand organically. At Dot, the goal is to express their unique educational philosophy through merchandise that people would genuinely love to carry.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The Problem Statement
+> *Design a merchandise collection of up to 15 designs (across T-shirts, tote bags, notebooks, mugs, laptop sleeves, sippers, coasters or more) that reinforces Dot's identity and stays true to its values.*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The objective was to think beyond simply slapping a logo on products. The merchandise had to capture the spirit of Dot in fun and creative ways - feeling **timeless, desirable, and distinctly "Dot"**. It needed to strengthen brand affinity among "Dotties" while introducing new people to the brand through everyday use.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Our Solution: The "Think Everyday" Collection
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We didn't just design merchandise; we built an immersive digital experience to showcase the **"Think Everyday"** collection. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We transformed 15 everyday essentials into subtle reminders to explore and stay curious. Every product in this showcase goes beyond physical utility - it acts as a portal. By scanning the QR codes seamlessly integrated into the designs, users unlock unique, hand-picked educational articles from around the world.
 
-## Deploy on Vercel
+### Key Highlights of the Showcase:
+* 🎨 **Premium Aesthetic & Interactive UI:** A highly polished, dynamic Next.js application featuring modern typography, scroll-based animations, and responsive asymmetrical grids.
+* 🛍️ **Interactive Product Galleries:** 3D video integrations, dynamic image toggles, and beautiful nested layouts for deep product exploration.
+* 📱 **The "QR Connected" Concept:** Highlighting the core innovation - merch that bridges the physical and digital learning experience.
+* 📖 **Story-Driven Presentation:** Every illustration, doodle, and design is presented with its underlying story and meaning, staying true to Dot's educational identity.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This showcase was built with a modern web stack designed for performance, fluidity, and aesthetics:
+* **Framework:** Next.js (React)
+* **Animation:** Framer Motion (for scroll reveals, hover states, and micro-interactions)
+* **Styling:** Custom CSS architectures focused on premium typography, deep contrast, and glassmorphism elements.
+
+## 🚀 Running Locally
+
+Want to explore the showcase on your own machine? 
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mehtarishita/dot-merch-case-study.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Explore:** Open [http://localhost:3000](http://localhost:3000) in your browser to experience the showcase.
+
+---
+*Designed & Developed for the IIM Ranchi x dot. Inkling 2026 Case Competition.*
