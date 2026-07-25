@@ -48,11 +48,6 @@ export default function AnnouncementBanner({ onHeightChange }: { onHeightChange:
           }}>
             {/* Content */}
             <div style={{ display: "flex", alignItems: "center", gap: 10, flex: 1, minWidth: 0 }}>
-              <span style={{
-                display: "inline-flex", alignItems: "center", justifyContent: "center",
-                width: 22, height: 22, background: C.bgDark, borderRadius: "50%",
-                fontSize: 11, flexShrink: 0,
-              }}>🎯</span>
               <p style={{
                 fontSize: 12, color: C.bgDark, fontWeight: 500,
                 letterSpacing: "0.01em", lineHeight: 1.4,

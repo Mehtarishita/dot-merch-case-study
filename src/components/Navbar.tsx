@@ -48,11 +48,18 @@ export default function Navbar() {
             ))}
           </div>
 
-          <Link href="#collection" className="nav-desktop"
-            style={{ background: C.text, color: C.bgDark, padding: "9px 22px", borderRadius: 999, fontWeight: 800, fontSize: 13, textDecoration: "none", letterSpacing: "0.01em", transition: "all 0.2s" }}
-            onMouseEnter={e => { e.currentTarget.style.background = C.yellow; }}
-            onMouseLeave={e => { e.currentTarget.style.background = C.text; }}
-          >Explore</Link>
+          <div className="nav-desktop" style={{ display: "flex", gap: 12 }}>
+            <Link href="https://www.dot.news/home" target="_blank" rel="noopener noreferrer" style={{ background: "transparent", border: `1px solid ${C.text}`, color: C.text, padding: "9px 22px", borderRadius: 999, textDecoration: "none", fontSize: 13, fontWeight: 800, letterSpacing: "0.01em", transition: "all 0.2s" }}
+              onMouseEnter={e => { e.currentTarget.style.background = "rgba(248,247,244,0.1)"; }}
+              onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}>
+              Visit Dot.News ↗
+            </Link>
+            <Link href="#collection" style={{ background: C.text, color: C.bgDark, padding: "9px 22px", borderRadius: 999, fontWeight: 800, fontSize: 13, textDecoration: "none", letterSpacing: "0.01em", transition: "all 0.2s" }}
+              onMouseEnter={e => { e.currentTarget.style.background = C.yellow; }}
+              onMouseLeave={e => { e.currentTarget.style.background = C.text; }}>
+              Explore Collection
+            </Link>
+          </div>
 
           <button onClick={() => setOpen(!open)} className="nav-mobile"
             style={{ background: "none", border: "none", cursor: "pointer", display: "flex", flexDirection: "column", gap: 5, padding: 6 }}>

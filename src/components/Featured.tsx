@@ -32,18 +32,19 @@ export default function Featured() {
             className="feat-main">
             
             <video 
+              className="feat-video"
               src="/images/products/connected-journal-3d.mp4" 
               autoPlay loop muted playsInline 
               style={{ width: "100%", height: "100%", objectFit: "contain", position: "absolute", top: 0, left: 0, transform: "scale(0.85)" }} 
             />
             
             {/* Gradient overlay to ensure text readability if video gets bright */}
-            <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 40%)", zIndex: 5 }} />
+            <div className="feat-gradient" style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 40%)", zIndex: 5 }} />
             
-            <div style={{ position: "absolute", bottom: 40, left: 40, right: 40, display: "flex", justifyContent: "space-between", alignItems: "flex-end", zIndex: 10 }}>
+            <div className="feat-text-wrapper" style={{ position: "absolute", bottom: 40, left: 40, right: 40, display: "flex", justifyContent: "space-between", alignItems: "flex-end", zIndex: 10, boxSizing: "border-box" }}>
               <div>
                 <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: "0.1em", textTransform: "uppercase", color: C.bgDark, background: C.yellow, padding: "6px 14px", borderRadius: 999, display: "inline-block", marginBottom: 16 }}>Stationery</div>
-                <h3 style={{ fontSize: "clamp(2rem,3vw,3rem)", fontWeight: 800, color: "#fff", margin: 0, letterSpacing: "-0.02em", textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>The Connected Journal</h3>
+                <h3 className="feat-title" style={{ fontSize: "clamp(2rem,3vw,3rem)", fontWeight: 800, color: "#fff", margin: 0, letterSpacing: "-0.02em", textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>The Connected Journal</h3>
               </div>
               <Link href="#collection" style={{ background: C.yellow, color: C.bgDark, padding: "12px 24px", borderRadius: 999, textDecoration: "none", fontWeight: 800, fontSize: 14, transition: "transform 0.2s" }}
                 onMouseEnter={e => e.currentTarget.style.transform = "scale(1.05)"}
@@ -92,9 +93,11 @@ export default function Featured() {
       <style>{`
         @media (max-width: 1000px) {
           .featured-grid { display: flex !important; flex-direction: column !important; }
-          .feat-main { min-height: 400px !important; }
-          .feat-main img { padding: 2rem !important; }
-          .feat-main > div { bottom: 24px !important; left: 24px !important; right: 24px !important; flex-direction: column !important; align-items: flex-start !important; gap: 16px !important; }
+          .feat-main { min-height: auto !important; flex-direction: column !important; justify-content: flex-start !important; }
+          .feat-video { position: relative !important; width: 100% !important; height: 350px !important; transform: scale(0.95) !important; object-fit: contain !important; }
+          .feat-gradient { display: none !important; }
+          .feat-text-wrapper { position: relative !important; bottom: auto !important; left: auto !important; right: auto !important; padding: 24px !important; width: 100% !important; flex-direction: column !important; align-items: flex-start !important; gap: 16px !important; background: #0D1120 !important; }
+          .feat-title { text-shadow: none !important; }
         }
       `}</style>
     </section>

@@ -52,10 +52,17 @@ export default function Footer() {
         <div style={{ borderTop:`1px solid ${C.border}`, paddingTop:"2rem", display:"flex", justifyContent:"space-between", flexWrap:"wrap", gap:"1rem", alignItems:"center" }}>
           <p style={{ fontSize:13, color:C.textLight }}>© {new Date().getFullYear()} Dot Education. A brand showcase - not a store.</p>
           <div style={{ display:"flex", gap:20 }}>
+            <Link href="https://www.dot.news/home" target="_blank" rel="noopener noreferrer" style={{ fontSize:13, color:C.textLight, textDecoration:"none", transition:"color 0.2s" }}
+              onMouseEnter={e => e.currentTarget.style.color = C.yellow}
+              onMouseLeave={e => e.currentTarget.style.color = C.textLight}>
+              Main Website ↗
+            </Link>
             {["Privacy Policy", "Contact"].map(l => (
               <Link key={l} href="#" style={{ fontSize:13, color:C.textLight, textDecoration:"none", transition:"color 0.2s" }}
-                onMouseEnter={e=>(e.currentTarget.style.color=C.text)}
-                onMouseLeave={e=>(e.currentTarget.style.color=C.textLight)}>{l}</Link>
+                onMouseEnter={e => e.currentTarget.style.color = C.yellow}
+                onMouseLeave={e => e.currentTarget.style.color = C.textLight}>
+                {l}
+              </Link>
             ))}
           </div>
         </div>
