@@ -1,0 +1,232 @@
+[
+  {
+    "id": "puzzle",
+    "name": "The Big Picture Puzzle",
+    "tagline": "Stories. Puzzles. Perspectives. One book. Endless curiosity.",
+    "category": "Interactive",
+    "story": "A beautiful gradient puzzle that connects ideas across disciplines. Designed for mindful assembly and deep focus.",
+    "highlights": [
+      "Premium puzzle pieces",
+      "Matte finish",
+      "Includes reference poster",
+      "Story-driven design"
+    ],
+    "emoji": "🧩",
+    "bg": "#F5F0F5"
+  },
+  {
+    "id": "growth-kit",
+    "name": "The Growth Kit",
+    "tagline": "Plant ideas. Grow possibilities.",
+    "category": "Lifestyle",
+    "story": "A tactile reminder that ideas need time to root. Includes everything needed to grow your own inspiration on your desk.",
+    "highlights": [
+      "Includes seeds & soil",
+      "Ceramic pot",
+      "Care instructions",
+      "Story-themed"
+    ],
+    "emoji": "🌱",
+    "bg": "#EEF5EE"
+  },
+  {
+    "id": "curious-tee",
+    "name": "The Curious Tee",
+    "tagline": "Wear your curiosity.",
+    "category": "Apparel",
+    "story": "Every icon is inspired by a Dot story - from science and space to ideas, books and discovery. A minimal tee that quietly celebrates curiosity.",
+    "highlights": [
+      "240 GSM Premium Cotton",
+      "Oversized Fit",
+      "Article-inspired doodle print",
+      "Minimal front embroidery",
+      "Woven signature labels",
+      "Breathable & pre-shrunk fabric",
+      "Screen printed for long-lasting wear",
+      "Designed for everyday curiosity"
+    ],
+    "emoji": "👕",
+    "bg": "#F0EDE8"
+  },
+  {
+    "id": "calendar",
+    "name": "The Curiosity Calendar",
+    "tagline": "A year of ideas, one day at a time.",
+    "category": "Stationery",
+    "story": "365 days of thought-provoking prompts and striking graphics. A daily ritual for the endlessly curious mind.",
+    "highlights": [
+      "365 days of prompts",
+      "Tear-away pages",
+      "Desktop stand",
+      "Minimal layout"
+    ],
+    "emoji": "📅",
+    "bg": "#FFF8E7"
+  },
+  {
+    "id": "focus-lamp",
+    "name": "The Focus Lamp",
+    "tagline": "Light up every great idea.",
+    "category": "Lifestyle",
+    "story": "An elegant, minimalist light source designed to reduce eye strain. The perfect companion for late-night epiphanies.",
+    "highlights": [
+      "Dimmable LED",
+      "Warm color temp",
+      "USB-C rechargeable",
+      "Minimal base"
+    ],
+    "emoji": "💡",
+    "bg": "#FFFBEB"
+  },
+  {
+    "id": "connected-journal",
+    "name": "The Connected Journal",
+    "tagline": "Where thoughts become discoveries.",
+    "category": "Stationery",
+    "story": "A premium, dot-grid sanctuary for your wildest ideas. Bound in high-quality materials to last a lifetime of discovery.",
+    "highlights": [
+      "Dot-grid pages",
+      "Lay-flat design",
+      "Ribbon bookmark",
+      "Premium paper"
+    ],
+    "emoji": "📓",
+    "bg": "#F5F8FF"
+  },
+  {
+    "id": "globe",
+    "name": "The Explorer Globe",
+    "tagline": "Discover beyond boundaries.",
+    "category": "Decor",
+    "story": "A sleek, monochromatic globe that invites exploration without borders. A statement piece for any creative workspace.",
+    "highlights": [
+      "Matte texture",
+      "Detailed cartography",
+      "Metal stand",
+      "Educational markings"
+    ],
+    "emoji": "🌍",
+    "bg": "#EDF2F7"
+  },
+  {
+    "id": "idea-folder",
+    "name": "The Perspective Binder",
+    "tagline": "Collect perspectives, not just papers.",
+    "category": "Stationery",
+    "story": "A thoughtful binder to organize your ideas, notes, articles and everything that shapes the way you think. Featuring custom sections to read, observe, think, connect, and create.",
+    "highlights": [
+      "Vegan leather",
+      "Premium finishing",
+      "Custom tab dividers",
+      "Durable & strong"
+    ],
+    "emoji": "📁",
+    "bg": "#F0EEF8"
+  },
+  {
+    "id": "curiosity-bottle",
+    "name": "The Curiosity Bottle",
+    "tagline": "Stay hydrated. Stay inspired.",
+    "category": "Lifestyle",
+    "story": "A minimalist, double-walled vessel to fuel your adventures. Engineered to maintain temperature while you maintain focus.",
+    "highlights": [
+      "Double-wall insulation",
+      "Leak-proof",
+      "Matte finish",
+      "BPA-free"
+    ],
+    "emoji": "🫙",
+    "bg": "#EEF4EE"
+  },
+  {
+    "id": "mug",
+    "name": "The Brain Brew Mug",
+    "tagline": "Every sip sparks an idea.",
+    "category": "Lifestyle",
+    "story": "A sturdy, matte ceramic vessel for your morning brew. Featuring a hidden quote to start your day with intention.",
+    "highlights": [
+      "Ceramic build",
+      "Comfortable handle",
+      "Microwave safe",
+      "Hidden quote inside"
+    ],
+    "emoji": "☕",
+    "bg": "#F8F0E8"
+  },
+  {
+    "id": "think-pad",
+    "name": "The Think Pad",
+    "tagline": "Write with confidence. Think with clarity.",
+    "category": "Stationery",
+    "story": "A substantial pad of premium paper for mapping out big ideas. Tear-off sheets make it easy to share your vision.",
+    "highlights": [
+      "Tear-off sheets",
+      "Thick paper",
+      "Grid layout",
+      "Desk friendly"
+    ],
+    "emoji": "📝",
+    "bg": "#FDF5E0"
+  },
+  {
+    "id": "stickers",
+    "name": "The Curiosity Stickers",
+    "tagline": "Little reminders to stay curious.",
+    "category": "Accessories",
+    "story": "Motivation to keep you going. Stay on track and block the noise with minimal, clean designs in colors you love. Perfect for late nights and big dreams.",
+    "highlights": [
+      "Waterproof & fade proof",
+      "Premium vinyl",
+      "Easy to peel & stick",
+      "Matte finish looks clean",
+      "Responsibly made with care"
+    ],
+    "emoji": "⭐",
+    "bg": "#FDF5E0"
+  },
+  {
+    "id": "clock",
+    "name": "The Timekeeper Clock",
+    "tagline": "Every second tells a story.",
+    "category": "Decor",
+    "story": "A beautiful, sweeping timepiece with no distracting ticks. A gentle reminder that every second is an opportunity to learn.",
+    "highlights": [
+      "Silent sweep movement",
+      "Minimal face",
+      "Wall mountable",
+      "Battery included"
+    ],
+    "emoji": "🕐",
+    "bg": "#F5F5F0"
+  },
+  {
+    "id": "tote",
+    "name": "The Explorer Tote",
+    "tagline": "Carry curiosity everywhere.",
+    "category": "Accessories",
+    "story": "A heavyweight canvas companion built for the real world. Features striking typography to inspire curiosity wherever you go.",
+    "highlights": [
+      "Heavyweight canvas",
+      "Inner pocket",
+      "Reinforced straps",
+      "Screen-printed art"
+    ],
+    "emoji": "👜",
+    "bg": "#EDF2F7"
+  },
+  {
+    "id": "companion",
+    "name": "The Curious Companion",
+    "tagline": "Your soft reminder to keep wondering.",
+    "category": "Lifestyle",
+    "story": "A comforting, weighted object to hold during moments of deep thought. The perfect desk companion to ground your ideas.",
+    "highlights": [
+      "Soft texture",
+      "Weighted base",
+      "Minimalist shape",
+      "Desk friendly"
+    ],
+    "emoji": "🧸",
+    "bg": "#F8EFEF"
+  }
+]

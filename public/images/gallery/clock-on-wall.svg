@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#f0ede8"/>
+  <text x="400" y="390" font-family="Inter,Arial" font-size="28" fill="#9ca3af" text-anchor="middle" dominant-baseline="middle" font-weight="500">Replace with your photo</text>
+  <text x="400" y="430" font-family="Inter,Arial" font-size="18" fill="#d1cfc9" text-anchor="middle" dominant-baseline="middle">800 × 800 recommended</text>
+  <circle cx="400" cy="320" r="40" fill="#e8e5e0"/>
+  <text x="400" y="330" font-family="Arial" font-size="40" text-anchor="middle" dominant-baseline="middle">📷</text>
+</svg>
